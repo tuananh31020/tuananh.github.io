@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+	<head lang="vi">
+
+		<title>The Fisrt Web</title>
+		<meta charset='utf-8' />
+		<link rel="stylesheet" href="style.css">
+		<script type="text/javascript">
+			 	var word = prompt("Nh?p t? mà b?n c?n d?ch");
+			 
+			 	switch (word){
+			 		case 'read' :
+			 			document.write(word + " nghia là d?c ");
+			 			break;
+			 		case 'write' :
+			 			document.write(word + " nghia là vi?t ");
+			 			break;
+			 		case 'jump' :
+			 			document.write(word + " nghia là nh?y ");
+			 			break;
+			 	
+			 	default :
+			 		document.write("T? này không có trong t? di?n");
+					 			}
+			 	
+			 	</script>
+	</head>
+	<body bgcolor=white>
+		<hr>
+		<p style="font-size: 100px; color: red"></p>
+	</body>
